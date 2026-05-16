@@ -1,21 +1,31 @@
 {
-  "name": "frontend",
+  "name": "event-management-dashboard",
   "private": true,
-  "version": "0.0.0",
+  "version": "1.0.0",
   "type": "module",
+  "description": "Full-stack Event Management Dashboard with React, Node.js, MongoDB, and Socket.IO",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "server": "node server.js",
+    "lint": "eslint ."
   },
   "dependencies": {
     "axios": "^1.15.0",
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongodb-memory-server": "^10.0.0",
+    "mongoose": "^8.5.0",
     "react": "^19.2.4",
     "react-dom": "^19.2.4",
     "react-hot-toast": "^2.6.0",
     "react-icons": "^5.6.0",
     "react-router-dom": "^7.14.1",
+    "socket.io": "^4.8.3",
     "socket.io-client": "^4.8.3"
   },
   "devDependencies": {

@@ -4,6 +4,7 @@ const http = require('http');
 const cors = require('cors');
 const { Server } = require('socket.io');
 const { connectDB } = require('./config/db');
+// Note: db.js was moved from root to config/ directory
 const socketHandler = require('./socket/socketHandler');
 const errorHandler = require('./middleware/errorHandler');
 
